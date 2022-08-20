@@ -19,6 +19,7 @@ const menus = [
 ]
 
 function App() {
+
   return (
     <div className="app" >
       <header >
@@ -46,7 +47,7 @@ function App() {
 }
 
 function Services() {
-  return <h1>Services page</h1>;
+  return <h1>Aram should create this website becouse Gevorg will be here tommorow</h1>;
 }
 
 export default App;
