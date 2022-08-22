@@ -10,6 +10,7 @@ const menus = [
     id: 1,
     title: 'Home',
     link: '/',
+    
   },
   {
     id: 2,
@@ -17,35 +18,47 @@ const menus = [
     link: '/services',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Works',
     link: '/works',
   },
   {
-    id: 2,
+    id: 4,
     title: 'About Us',
     link: '/aboutus',
-  }
+  },
+  // {
+  //   id: 5,
+  //   title: 'Contact Us',
+  //   link: '/contactus',
+  // }
 ]
 
 function App() {
 
   return (
-    <div className="app" >
+    <div className="container" >
+      
       <header >
-        <h1>Logo Add StartUp</h1>
-        <nav>
+      
+        <nav className="nav" >
+        <h1 className="header">StartUp</h1>
+        
           {
             menus.map(menu => {
               return (
-                <Link key={menu.id} to={menu.link}>
+                
+                <Link className="link1"  key={menu.id} to={menu.link}>
                   <span>{menu.title}</span>
                 </Link>
               )
             })
           }
+          <Link className="link2" to="/contactus">Contact Us</Link>
+          
         </nav>
-      </header>
+        </header>
+      
       <div className="content">
         <Routes>
           <Route path="/" element={<HomePage />} />
