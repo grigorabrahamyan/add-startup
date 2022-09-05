@@ -4,6 +4,11 @@ import {
   Link,
 } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import Aboutus from "./components/AboutUs";
+import Services from "./components/Services";
+import Works from "./components/Works";
+//import Res from "./components/size";
+//import React, { useLayoutEffect, useState } from 'react';
 
 const menus = [
   {
@@ -34,6 +39,7 @@ const menus = [
   // }
 ]
 
+
 function App() {
 
   return (
@@ -60,17 +66,21 @@ function App() {
         </header>
       
       <div className="content">
+        {/* <Res /> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/aboutus" element={<Aboutus />} />
         </Routes>
       </div>
+      
     </div>
   );
 }
 
-function Services() {
-  return <h1>Aram should create this website becouse Gevorg will be here tommorow</h1>;
-}
+
+
+
 
 export default App;
