@@ -30,25 +30,36 @@ netus dolor. Turpis faucibus scelerisque eu, in turpis.</span></div>
     <h1>Write in to us!</h1>
     
     
-    <h4 style={{marginTop:"100px"}}>Createmystartup@gmail.com </h4>
+    <h4 style={{marginTop:"50px"}}>Createmystartup@gmail.com </h4>
     
         <h4>+1 666 666 666</h4>
         </div>
-        <div style={{marginTop:"470px", marginLeft:"50px", height:"200px"}}><Facebook />
+        <div style={{marginTop:"470px", marginLeft:"50px", height:"350px"}}><Facebook />
         <Instagram />
          <Telegram /></div>
         <div className="rect">
            <h3 className="recthead">Tell us how we can help you.</h3>
-           <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Name</h4>
-           <h4 style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></h4>
-           <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Email</h4>
-           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div>
-           <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Phone</h4>
-           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div>
-           <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Industry</h4>
-           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div>
-           <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Message</h4>
-           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div>
+           {/* <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Name</h4>
+           <h4 style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></h4> */}
+           <input type="text" placeholder="*Name" style={{border:"none", outline: "none", borderBottom: "2px solid #375C7E",width:"450px", 
+           marginLeft:"50px",marginTop:"70px" }}></input>
+           {/* <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Email</h4>
+           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div> */}
+           <input type="email" placeholder="*Email" style={{border:"none", outline: "none", borderBottom: "2px solid #375C7E",width:"450px", 
+           marginLeft:"50px",marginTop:"70px" }}></input>
+           {/* <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Phone</h4>
+           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div> */}
+           <input type="number" placeholder="*Phone" style={{border:"none", outline: "none", borderBottom: "2px solid #375C7E",width:"450px", 
+           marginLeft:"50px",marginTop:"70px" }}></input>
+           {/* <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Industry</h4>
+           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div> */}
+            <input type="text" placeholder="*Industry" style={{border:"none", outline: "none", borderBottom: "2px solid #375C7E",width:"450px", 
+           marginLeft:"50px",marginTop:"70px" }}></input>
+           {/* <h4 style={{marginLeft:"50px", marginTop:"70px"}}>*Message</h4>
+           <div style={{height:"0px", border: "1px solid #375C7E",width:"450px", marginLeft:"50px" }}></div> */}
+           <input type="text" placeholder="*Message" style={{border:"none", outline: "none", borderBottom: "2px solid #375C7E",width:"450px", 
+           marginLeft:"50px",marginTop:"70px" }}></input>
+           {/* <input type="text" style={{border:"none", borderBottom:"2px solid red" }}></input> */}
            <button className="sendBtn" >Send</button>
          
             </div>
