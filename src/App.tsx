@@ -7,7 +7,7 @@ import HomePage from "./components/HomePage";
 import Aboutus from "./components/AboutUs";
 import Services from "./components/Services";
 import Works from "./components/Works";
-//import Res from "./components/size";
+import Example from "./components/size";
 //import React, { useLayoutEffect, useState } from 'react';
 
 const menus = [
@@ -43,8 +43,10 @@ const menus = [
 function App() {
 
   return (
+   
     <div className="container" >
       
+       
       <header >
       
         <nav className="nav" >
@@ -76,6 +78,7 @@ function App() {
       </div>
       
     </div>
+    
   );
 }
 
